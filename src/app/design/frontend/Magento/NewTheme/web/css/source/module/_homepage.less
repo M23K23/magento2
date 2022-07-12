@@ -1,4 +1,5 @@
 //Task 2 style file
+//_______________________start______________________________
 .myslide {
 
     h2 {   position: center;
@@ -7,6 +8,16 @@
     p {
         position: center;
         padding-left: 300px;
+    }
+}
+
+.some-banner
+{
+
+    button
+    {
+        color: black;
+        text-decoration: underline;
     }
 }
 
@@ -21,6 +32,48 @@
         {
             color: black;
             text-decoration: underline;
+        }
+    }
+}
+.textAfter::after
+{
+    content: ".................";
+    width: 27px;
+    font-size: 3px;
+    font-weight: lighter;
+    height: 1px;
+    background: #222;
+}
+//____________________End____________________________________
+
+//Task4
+//___________________Start_____________________
+.post-list
+{
+    li
+    {
+        height: auto;
+        width: auto;
+    }
+    display: flex;
+
+    .value::before
+    {
+        content: "___" ;
+    }
+
+    a
+    {
+        color: black;
+        font-size: 14px;
+    }
+
+    .blog-widget-recent {
+        .post-description{
+        .post-text-hld {
+            min-height: auto;
+            overflow-y: auto;
+        }
         }
     }
 }
